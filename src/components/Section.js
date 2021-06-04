@@ -17,6 +17,7 @@ const Section = ({ genre ***REMOVED***) =***REMOVED*** {
 
   useEffect(() =***REMOVED*** {
     fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   ***REMOVED***, [])
 
   return (

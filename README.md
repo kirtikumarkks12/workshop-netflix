@@ -29,7 +29,7 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ***REMOVED***
 ***REMOVED*** * You will need a github account
-***REMOVED*** * You will also need Netlify and Astra accounts, but we'll work through that in the exercises
+***REMOVED*** * You will also need Netlify and AstraDB accounts, but we'll work through that in the exercises
 ***REMOVED*** * Use **Chrome** or **Firefox** for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
 
 ***REMOVED***
@@ -95,7 +95,7 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 ***REMOVED*** *When creating your instance use the promotion code **ANIA200** to get 200$ of free credit allowing you about 30 million writes + 30 Million reads  + 50GB a month of monthly storage!!*
 
 
-**`ASTRA`** is the simplest way to run Cassandra with zero operations at all - just push the button and get your cluster. No credit card required, $25.00 USD credit every month, roughly 5M writes, 30M reads, 40GB storage monthly - sufficient to run small production workloads.  
+***REMOVED***
 
 ✅ Click the button to login or register with Datastax. You can use your `Github`, `Google` accounts or register with an `email`.
 
@@ -557,6 +557,6 @@ From here we can see all our functions and get direct links as well as watch rea
 ***REMOVED***
 ***REMOVED***
 
-While we focused on getting you up and running to production with Astra and Netlify, Ania's video will dig into more details on the app itself. Check it out to dig in more.
+***REMOVED***
 
 ***REMOVED***
