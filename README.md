@@ -155,11 +155,11 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-✅ In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix`:
+✅ In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix_keyspace` if you used a different name:
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-    keyspaceName:"netflix",
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -176,7 +176,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-✅ In graphQL playground, change tab to now use `graphql`. Edit the end of the URl to change from `system` to the name of your keyspace: `netflix`
+✅ In graphQL playground, change tab to now use `graphql`. Edit the end of the URl to change from `system` to the name of your keyspace: `netflix_keyspace`
 
 ✅ Populate HTTP HEADER variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
 
@@ -262,7 +262,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-    keyspaceName:"netflix",
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -452,7 +452,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-Use the token you previously generated.
+Use the token you previously generated. If you no longer have the token and did not download a .csv, you can generate a new token using the instructions above
 
 ***REMOVED***
 
@@ -522,20 +522,11 @@ ASTRA_GRAPHQL_ENDPOINT={ your_endpoint ***REMOVED***
   ***REMOVED***
   
 ***REMOVED***
-  (EDIT IMAGE)
-  ![Netlify Setup Example](./tutorial/images/netlify-livesite.png?raw=true)
+***REMOVED***
 
 # Part 3 - Working with AstraDB and the GraphQL API
 
-## EDIT  ME
-
-
-# Part 3 - Serverless Functions, how they work
-So how do these functions work with no back-end server?
-
-The short answer is that Netlify is providing the back-end environment for us. All we have to do is tell Netlify where to find the functions. Netlify will do the rest.
-
-### 15. Serverless configuration
+### Serverless configuration
 
 Take a look at `netlify.toml`.
 
