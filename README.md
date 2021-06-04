@@ -381,7 +381,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-***REMOVED***
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanWelford/workshop-graphql-netflix)
  * <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
     <img src="tutorial/images/deploy-to-netlify.gif?raw=true" /***REMOVED***
     </details***REMOVED***
