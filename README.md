@@ -427,7 +427,6 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-(EDIT IMAGE)
 ***REMOVED***
 
 ***REMOVED***
