@@ -50,7 +50,7 @@
 ***REMOVED***
 ***REMOVED***
 
-***REMOVED*** (EDIT)
+***REMOVED***
 
 <img src="tutorial/images/netflix-badge.png?raw=true" width="200" align="right" /***REMOVED***
 
