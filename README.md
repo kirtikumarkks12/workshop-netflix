@@ -116,7 +116,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-|**keypace**| `netflix_keyspace` |
+***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
@@ -352,11 +352,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-***REMOVED***diff
--(EDIT)
-***REMOVED***
-
-***REMOVED*** ℹ️ To get more movie data check the files in the `data` folder.
+***REMOVED*** ℹ️ You can find more movie data in the `data` folder, however, we will be doing a bulk import of all this data shortly.
 
 [🏠 Back to Table of Contents](#table-of-content)
 
