@@ -39,19 +39,19 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ***REMOVED***
 
-***REMOVED***(EDIT)
 ***REMOVED***
 ***REMOVED***
-
-***REMOVED*** (EDIT)
-
-<img src="tutorial/images/tiktok-badge.png?raw=true" width="200" align="right" /***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 
-***REMOVED*** Make screenshots alongside the steps and show us your deployed production TikTok clone up in Netlify.
+<img src="tutorial/images/netflix-badge.png?raw=true" width="200" align="right" /***REMOVED***
+
+***REMOVED***
+
+***REMOVED*** Make screenshots alongside the steps and show us your deployed production Netlfix clone up in Netlify.
 2. (Optional extra credit) Watch the 2 hour Ania video [HERE](#video-tutorial-with-ania-kubow), build the app yourself, and show us the completed app.
-3. Submit your homework [here](https://github.com/datastaxdevs/workshop-astra-tik-tok/issues/new?assignees=HadesArchitect&labels=homework%2Cpending&template=homework-assignment.md&title=%5BHW%5D+%3CNAME%3E)
+3. Submit your homework [here](https://github.com/datastaxdevs/workshop-astra-tik-tok/issues/new?assignees=HadesArchitect&labels=homework%2Cpending&template=homework-assignment.md&title=%5BHW%5D+%3CNAME%3E) (EDIT)
 
 ***REMOVED***
   
