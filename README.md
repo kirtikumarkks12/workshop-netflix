@@ -445,7 +445,6 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-(EDIT IMAGE)
  * <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
     <img src="tutorial/images/netlify-install-cli.png?raw=true" /***REMOVED***
     </details***REMOVED***
