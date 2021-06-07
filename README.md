@@ -5,22 +5,25 @@
 ***REMOVED***
 ***REMOVED***
 
-*50 minutes, Intermediate, [Start Building](#running-astra-tik-tok)*
-
-A simple Netflix clone running on AstraDB that leverages the GraphQL API.
-***REMOVED***
+*50 minutes, Intermediate, [Start Building](#running-astra-netflix)*
 
 ***REMOVED***
 
-## Objectives
-* Deploy a Netflix clone "locally" and to production
-* Learn how to use the @astrajs GraphQL API to retrieve pre-populated data
 ***REMOVED***
 
 ***REMOVED***
 
 ***REMOVED***
-***REMOVED*** 
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -33,7 +36,11 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 ***REMOVED*** * Use **Chrome** or **Firefox** for the best experience. Other browsers are great, but don't work well with the GitPod integration we use a bit later.
 
 ***REMOVED***
-***REMOVED*** * No. All tools and services we provide here are FREE.
+***REMOVED*** * **No.** All tools and services we provide here are FREE.
+
+***REMOVED***
+
+***REMOVED*** Attending the session is not enough. You need to complete the homeworks detailed below and you will get a nice badge.
 
 ***REMOVED***
 
@@ -43,15 +50,17 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 ***REMOVED***
 ***REMOVED***
 
-***REMOVED***
+***REMOVED*** (EDIT)
 
 <img src="tutorial/images/netflix-badge.png?raw=true" width="200" align="right" /***REMOVED***
 
 ***REMOVED***
 
-***REMOVED*** Make screenshots alongside the steps and show us your deployed production Netlfix clone up in Netlify.
-2. (Optional extra credit) Watch the 2 hour Ania video [HERE](#video-tutorial-with-ania-kubow), build the app yourself, and show us the completed app.
-3. Submit your homework [here](https://github.com/datastaxdevs/workshop-astra-tik-tok/issues/new?assignees=HadesArchitect&labels=homework%2Cpending&template=homework-assignment.md&title=%5BHW%5D+%3CNAME%3E) (EDIT)
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 
 ***REMOVED***
   
@@ -59,17 +68,18 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ***REMOVED***
 
-##***REMOVED***
-1. [Create AstraDB Instance](#2-create-astra-instance)
-2. [Create a security token](#3-create-a-security-token)
-3. [Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
-4. [Insert data in **genre**  with GraphQL](#5-insert-data-in-the-table-with-graphql)
-5. [Retrieve values of **genre** table](#6-retrieving-list-of-values)
-6. [Create **movie** table](#7-creating-a-movies-table)
-7. [Insert values in **movie** table](#8-insert-values-in-movie-table)
-8. [Retrieve values from **movie** table](#9-retrieve-values-from-movie-tables)
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 
-###  Part 2 - Deploy to Production
+***REMOVED***
 1. [Deploy to Netlify](#2-deploy-to-netlify)
 2. [Clone your GitHub repository](#3-clone-your-github-repository)
 3. [Launch GitPod](#4-launch-gitpod-ide)
@@ -80,8 +90,8 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 8. [Connect Netlify to your site](#9-connect-netlify-to-your-site)
 9. [Deploy to production](#10-deploy-to-production)
 
-### Part 3 - Working with AstraDB and the GraphQL API
-11. [Connecting the Database](#11-connecting-the-database)
+### Part III - Working with AstraDB and the GraphQL API
+1. [Serverless Configuration](#11-connecting-the-database)
 
 ***REMOVED***
 ***REMOVED***
@@ -94,14 +104,13 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ***REMOVED*** *When creating your instance use the promotion code **ANIA200** to get 200$ of free credit allowing you about 30 million writes + 30 Million reads  + 50GB a month of monthly storage!!*
 
-
 ***REMOVED***
 
 ✅ Click the button to login or register with Datastax. You can use your `Github`, `Google` accounts or register with an `email`.
 
 ***REMOVED***
 
-<a href="http://dtsx.io/netflix-clone"***REMOVED***<img src="img/create_astra_db.png?raw=true" /***REMOVED***</a***REMOVED***
+<a href="http://dtsx.io/netflix-workshop-1"***REMOVED***<img src="img/create_astra_db.png?raw=true" /***REMOVED***</a***REMOVED***
 - <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
     <img src="https://github.com/datastaxdevs/workshop-spring-stargate/raw/main/images/tutorials/astra-create-db.gif?raw=true" /***REMOVED***
 </details***REMOVED***
@@ -117,7 +126,7 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ***REMOVED***
 
-![my-pic](https://github.com/datastaxdevs/shared-assets/blob/master/astra/dashboard-pending-1000-update.png?raw=true)
+***REMOVED***
 
 ***REMOVED***
 
@@ -128,7 +137,7 @@ A simple Netflix clone running on AstraDB that leverages the GraphQL API.
 
 ✅ [Create a token for your app](https://docs.datastax.com/en/astra/docs/manage-application-tokens.html) to use in the settings screen
 
-Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in your clipboard and save the CSV this value would not be provided afterward.
+Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in your clipboard and save the CSV, this value would not be provided afterward.
 
 ***REMOVED***
 - <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
@@ -136,8 +145,6 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 </details***REMOVED***
 
 [🏠 Back to Table of Contents](#table-of-content)
-
-
 
 ***REMOVED***
 
@@ -147,15 +154,17 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-*as show on the picture below*
+***REMOVED***
 ***REMOVED***
 
+***REMOVED*** *Note that values in the picture do no reflect the database name `netflix_workshop_db`, reason is we do not reproduce every pictures each time*
 
-✅ Populate HTTP HEADER variable `x-cassandra-token` on the bottom of the page with your token as shown below
+✅ In GraphQL Playground, **Populate HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below
 
 ***REMOVED***
 
 ✅ In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix_keyspace` if you used a different name:
+
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -170,6 +179,10 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
 ***REMOVED***
 
 [🏠 Back to Table of Contents](#table-of-content)
@@ -178,11 +191,13 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ✅ In graphQL playground, change tab to now use `graphql`. Edit the end of the URl to change from `system` to the name of your keyspace: `netflix_keyspace`
 
-✅ Populate HTTP HEADER variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
+✅ Populate **HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
 
 ***REMOVED***
 
-✅ In GraphQL Playground,populate the `reference_list` table with the following values:
+✅ In GraphQL Playground,populate the `reference_list` table with the following values
+
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -234,11 +249,13 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
+***REMOVED***
+
 [🏠 Back to Table of Contents](#table-of-content)
 
 ***REMOVED***
 
-✅ In GraphQL Playground, not changing tab (yeah) list values from the table with the following command.
+✅ In GraphQL Playground, not changing tab (yeah) list values from the table with the following query.
 
 ***REMOVED***
 ***REMOVED***
@@ -334,10 +351,15 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
     ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-***REMOVED*** ℹ️ To get more movie data check the files in the `data` folder.
 
 ***REMOVED***
 ***REMOVED***
+
+***REMOVED***diff
+-(EDIT)
+***REMOVED***
+
+***REMOVED*** ℹ️ To get more movie data check the files in the `data` folder.
 
 [🏠 Back to Table of Contents](#table-of-content)
 
@@ -364,10 +386,80 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
+✅ For small datasets you can retrieve all values in the table but for performance or network reasons you need to you paging. Let's do the same query asking for a `page size to 2`
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      value: {genre:"Sci-Fi"***REMOVED***,
+       options: {pageSize: 2***REMOVED***,
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+
+Notice that `pageState` is also now returned. Let's use it to fetch the next 2 items. Edit the next query to replace your own pageState `YOUR_PAGE_STATE`
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      value: {genre:"Sci-Fi"***REMOVED***,
+       options: {pageSize: 2, pageState: "<YOUR_PAGE_STATE***REMOVED***"***REMOVED***,
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
+ 
+voila !
+
+***REMOVED***
 
 <br/***REMOVED***
 <br/***REMOVED***
 <br/***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED*** *If the file open in the browser save it with the name `movies.csv`. This is important as the filename will be the table name.*
+
+<p align="left"***REMOVED***
+<a href="https://raw.githubusercontent.com/datastaxdevs/workshop-graphql-netflix/main/dataset/movies.csv"***REMOVED***
+ <img src="https://dabuttonfactory.com/button.png?t=Download Dataset&f=Roboto-Bold&ts=20&tc=fff&hp=20&vp=15&c=11&bgt=unicolored&bgc=15d798" /***REMOVED***
+</a***REMOVED***
+</p***REMOVED***
+
+✅ **Step 9b: Open Astra Data Loader**
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+
+✅ **Step 9c: Open Astra Data Loader**
 
 
 ***REMOVED***
@@ -524,7 +616,7 @@ ASTRA_GRAPHQL_ENDPOINT={ your_endpoint ***REMOVED***
 
 # Part 3 - Working with AstraDB and the GraphQL API
 
-### Serverless configuration
+## Serverless configuration
 
 Take a look at `netlify.toml`.
 
