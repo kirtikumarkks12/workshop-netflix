@@ -80,15 +80,15 @@
 ***REMOVED***
 
 ***REMOVED***
-1. [Deploy to Netlify](#2-deploy-to-netlify)
-2. [Clone your GitHub repository](#3-clone-your-github-repository)
-3. [Launch GitPod](#4-launch-gitpod-ide)
-4. [Install the Netlify CLI](#5-install-the-netlify-cli-command-line-interface)
-5. [Retrieve application token to securely connect to the database](#6-generate-application-token-to-securely-connect-to-the-database)
-6. [Configure Environment Variables and Install Dependencies](#7-configure-and-connect-database)
-7. [Launch your app](#8-launch-your-app)
-8. [Connect Netlify to your site](#9-connect-netlify-to-your-site)
-9. [Deploy to production](#10-deploy-to-production)
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -442,7 +442,7 @@ voila !
 ***REMOVED*** *If the file open in the browser save it with the name `movies.csv`. This is important as the filename will be the table name.*
 
 <p align="left"***REMOVED***
-<a href="https://raw.githubusercontent.com/datastaxdevs/workshop-graphql-netflix/main/dataset/movies.csv"***REMOVED***
+<a href="https://raw.githubusercontent.com/datastaxdevs/workshop-graphql-netflix/main/data/movies.csv"***REMOVED***
  <img src="https://dabuttonfactory.com/button.png?t=Download Dataset&f=Roboto-Bold&ts=20&tc=fff&hp=20&vp=15&c=11&bgt=unicolored&bgc=15d798" /***REMOVED***
 </a***REMOVED***
 </p***REMOVED***
@@ -540,6 +540,12 @@ voila !
 ***REMOVED***
 
 Use the token you previously generated. If you no longer have the token and did not download a .csv, you can generate a new token using the instructions above
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 
