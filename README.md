@@ -10,6 +10,7 @@
 ***REMOVED***
 
 ***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 
@@ -577,7 +578,7 @@
 
 ***REMOVED***
 
-Use the token you previously generated. If you no longer have the token and did not download a .csv, you can generate a new token using the instructions above
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -608,21 +609,48 @@ ASTRA_GRAPHQL_ENDPOINT={ your_endpoint ***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
-***REMOVED***
-  * First thing, we'll need to **STOP** the `netlify dev` command we issued a moment ago. In the terminal where you executed the netlify command issue a `CTRL-C` (control key + the C key) in order to stop the process.
-  * Then continue with the following commands
-  * This will pop up a browser to authenticate with netlify
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-  _Note, when using GitPod the preview pane will not display this properly. You must click the "open in a new window" button in the very top right of the preview pane._
 
-  * This will link your workspace to the associated site
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
   ***REMOVED***
-  ***REMOVED***
+***REMOVED***
   ***REMOVED***
 
-  * This will take the .env file created by astra-setup and upload it to netlify
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+✅ **Step 8c:** Open the link in a new WINDOWS for the link to work, git
+
+  ***REMOVED*** When using GitPod the preview pane **will not display this properly.** You must click the "open in a new window" button in the very top right of the preview pane._
+
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+  
   ***REMOVED***
 ***REMOVED***
   ***REMOVED***
