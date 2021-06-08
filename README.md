@@ -133,7 +133,7 @@
 
 ***REMOVED***
 
-✅  **Step 2a:**  [Create a token for your app](https://docs.datastax.com/en/astra/docs/manage-application-tokens.html) to use in the settings screen
+***REMOVED***
 
 ***REMOVED***
 
@@ -272,6 +272,7 @@
 
 ***REMOVED***
 
+***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
@@ -436,7 +437,7 @@
 
 ***REMOVED***
 
-***REMOVED*** *If the file open in the browser save it with the name `movies.csv`. This is important as the filename will be the table name.*
+***REMOVED*** *If the file opens in the browser save it with the name `movies.csv`. This is important as the filename will be the table name.*
 
 <p align="left"***REMOVED***
 <a href="https://raw.githubusercontent.com/datastaxdevs/workshop-graphql-netflix/main/data/movies.csv"***REMOVED***
@@ -565,6 +566,8 @@
 
 ***REMOVED***
    </details***REMOVED***
+   
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -626,7 +629,7 @@ ASTRA_GRAPHQL_ENDPOINT={ your_endpoint ***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
-✅ **Step 8c:** Open the link in a new WINDOWS for the link to work, git
+***REMOVED***
 
   ***REMOVED*** When using GitPod the preview pane **will not display this properly.** You must click the "open in a new window" button in the very top right of the preview pane._
 
