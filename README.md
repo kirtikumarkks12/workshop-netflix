@@ -5,7 +5,7 @@
 ***REMOVED***
 ***REMOVED***
 
-*50 minutes, Intermediate, [Start Building](#running-astra-netflix)*
+***REMOVED***
 
 ***REMOVED***
 
@@ -103,7 +103,7 @@
 
 ***REMOVED***
 
-✅ Click the button to login or register with Datastax. You can use your `Github`, `Google` accounts or register with an `email`.
+***REMOVED***
 
 ***REMOVED***
 
@@ -127,25 +127,25 @@
 
 ***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 
 ***REMOVED***
 
-✅ [Create a token for your app](https://docs.datastax.com/en/astra/docs/manage-application-tokens.html) to use in the settings screen
+✅  **Step 2a:**  [Create a token for your app](https://docs.datastax.com/en/astra/docs/manage-application-tokens.html) to use in the settings screen
 
-Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in your clipboard and save the CSV, this value would not be provided afterward.
+***REMOVED***
 
 ***REMOVED***
 - <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
     <img src="img/astra-create-token.gif?raw=true" /***REMOVED***
 </details***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 ***REMOVED***
 
-✅ Open **GraphQL Playground** by 
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -156,43 +156,43 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED*** *Note that values in the picture do no reflect the database name `netflix_workshop_db`, reason is we do not reproduce every pictures each time*
 
-✅ In GraphQL Playground, **Populate HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below
-
-***REMOVED***
-
-✅ In GraphQL Playground, create a table with the following mutation, making sure to replace `netflix_keyspace` if you used a different name:
-
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 
-✅ In graphQL playground, change tab to now use `graphql`. Edit the end of the URl to change from `system` to the name of your keyspace: `netflix_keyspace`
-
-✅ Populate **HTTP HEADER** variable `x-cassandra-token` on the bottom of the page with your token as shown below (again !! yes this is not the same tab)
+***REMOVED***
 
 ***REMOVED***
 
-✅ In GraphQL Playground,populate the `reference_list` table with the following values
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
 
 ***REMOVED***
 
@@ -248,11 +248,11 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 ***REMOVED***
 
-✅ In GraphQL Playground, not changing tab (yeah) list values from the table with the following query.
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -267,11 +267,11 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 ***REMOVED***
 
-✅ Move to tab `GRAPHQL-SCHEMA`, everything should be set, use the following mutation to create a new table:
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -298,11 +298,11 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 ***REMOVED***
 
-✅ Move to tab `GRAPHQL`, everything should be set, use the following mutation to populate movies table: 
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -354,11 +354,11 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED*** ℹ️ You can find more movie data in the `data` folder, however, we will be doing a bulk import of all this data shortly.
 
-[🏠 Back to Table of Contents](#table-of-content)
+***REMOVED***
 
 ***REMOVED***
 
-✅ In GraphQL Playground, not changing tab (yeah) list values from the table with the following command.
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -379,7 +379,7 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 ***REMOVED***
 ***REMOVED***
 
-✅ For small datasets you can retrieve all values in the table but for performance or network reasons you need to you paging. Let's do the same query asking for a `page size to 2`
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -401,7 +401,9 @@ Copy the token value (eg `AstraCS:KDfdKeNREyWQvDpDrBqwBsUB:ec80667c....`) in you
 
 ***REMOVED***
 
-Notice that `pageState` is also now returned. Let's use it to fetch the next 2 items. Edit the next query to replace your own pageState `YOUR_PAGE_STATE`
+***REMOVED***
+
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -421,13 +423,11 @@ Notice that `pageState` is also now returned. Let's use it to fetch the next 2 i
 ***REMOVED***
 ***REMOVED***
  
-voila !
+***REMOVED***
 
 ***REMOVED***
 
-<br/***REMOVED***
-<br/***REMOVED***
-<br/***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 
@@ -443,7 +443,11 @@ voila !
 </a***REMOVED***
 </p***REMOVED***
 
-✅ **Step 9b: Open Astra Data Loader**
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
 
 ***REMOVED***
 
@@ -451,13 +455,51 @@ voila !
 
 ***REMOVED***
 
+***REMOVED***
 
-✅ **Step 9c: Open Astra Data Loader**
-
+***REMOVED***
 
 ***REMOVED***
 
 ***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
+***REMOVED***
+
 - <details***REMOVED***<summary***REMOVED*** What does the netlify deploy button do?</summary***REMOVED***The Netlify deploy button will:<ul***REMOVED***
     <li***REMOVED***Create a new repository for you on Github</li***REMOVED***
     <li***REMOVED***Create a site on Netlify</li***REMOVED***
@@ -466,7 +508,7 @@ voila !
 
 ***REMOVED***
 
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanWelford/workshop-graphql-netflix)
+***REMOVED***
  * <details***REMOVED***<summary***REMOVED***Show me!</summary***REMOVED***
     <img src="tutorial/images/deploy-to-netlify.gif?raw=true" /***REMOVED***
     </details***REMOVED***
