@@ -13,30 +13,30 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
-  ***REMOVED***,
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "netlify dev"
-  ***REMOVED***,
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-***REMOVED***
-  ***REMOVED***,
+    ]
+  },
   "browserslist": {
     "production": [
-      "***REMOVED***0.2%",
+      ">0.2%",
       "not dead",
       "not op_mini all"
-***REMOVED***,
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    ]
+  }
+}

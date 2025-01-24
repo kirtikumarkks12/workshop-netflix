@@ -3,11 +3,11 @@ tasks:
     init: |
       cd /workspace/workshop-graphql-netflix
       nvm install node
-      ***REMOVED*** -g npm@latest
+      npm install -g npm@latest
     command: |
       cd /workspace/workshop-graphql-netflix
       echo "workshopgraphql-netflix gitpod ready - LET'S DO THIS!"
-      ***REMOVED***
+      npm install
 ports:
   - port: 8888
     onOpen: open-preview

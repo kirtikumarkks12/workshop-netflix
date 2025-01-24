@@ -7,35 +7,35 @@ exports.handler = async function (event) {
   const query = `
     query getAllGenres {
       reference_list (
-    ***REMOVED***label: "genre"***REMOVED***,
-        options: { limit: ${JSON.stringify(limit)***REMOVED*** ***REMOVED***
-    ***REMOVED*** {
-  ***REMOVED***
+        value: { label: "genre"},
+        options: { limit: ${JSON.stringify(limit)} }
+      ) {
+        values {
           value
-        ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
+        }
+      }
+    }
   `  
   const response = await fetch(url, {
     method: 'POST',
     headers: {
       "Content-Type": "application/json",
       "x-cassandra-token": process.env.ASTRA_DB_APPLICATION_TOKEN
-    ***REMOVED***,
-    body: JSON.stringify({ query ***REMOVED***)
-  ***REMOVED***)
+    },
+    body: JSON.stringify({ query })
+  })
 
   try {
     const responseBody = await response.json()
     return {
       statusCode: 200,
       body: JSON.stringify(responseBody)
-    ***REMOVED***
-  ***REMOVED*** catch (e) {
+    }
+  } catch (e) {
     console.log(e)
     return {
       statusCode: 500,
       body: JSON.stringify(e)
-    ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    }
+  }
+}

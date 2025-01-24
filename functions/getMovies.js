@@ -7,42 +7,42 @@ exports.handler = async function (event) {
   const url = process.env.ASTRA_GRAPHQL_ENDPOINT
   const query = `
   query {
-***REMOVED***
-  ***REMOVED***genre: ${JSON.stringify(genre)***REMOVED******REMOVED***,
+    movies_by_genre (
+      value: { genre: ${JSON.stringify(genre)}},
       orderBy: [year_DESC],
-      options: { pageSize: 6, pageState: ${JSON.stringify(pageState)***REMOVED*** ***REMOVED***
-  ***REMOVED*** {
-***REMOVED***
+      options: { pageSize: 6, pageState: ${JSON.stringify(pageState)} }
+    ) {
+      values {
         year,
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-      ***REMOVED***
-  ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***
+        title,
+        duration,
+        synopsis,
+        thumbnail
+      }
+      pageState
+    }
+  }
   `  
   const response = await fetch(url, {
     method: 'POST',
     headers: {
       "Content-Type": "application/json",
       "x-cassandra-token": process.env.ASTRA_DB_APPLICATION_TOKEN
-    ***REMOVED***,
-    body: JSON.stringify({ query ***REMOVED***)
-  ***REMOVED***)
+    },
+    body: JSON.stringify({ query })
+  })
 
   try {
     const responseBody = await response.json()
     return {
       statusCode: 200,
       body: JSON.stringify(responseBody)
-    ***REMOVED***
-  ***REMOVED*** catch (e) {
+    }
+  } catch (e) {
     console.log(e)
     return {
       statusCode: 500,
       body: JSON.stringify(e)
-    ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    }
+  }
+}

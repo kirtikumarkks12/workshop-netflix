@@ -1,32 +1,32 @@
-import { useState ***REMOVED*** from "react"
+import { useState } from "react"
 
-const Card = ({ movie ***REMOVED***) =***REMOVED*** {
+const Card = ({ movie }) => {
   const [isShown, setIsShown] = useState(false)
 
   return (
     <div
       className="card"
-      onMouseEnter={() =***REMOVED*** setIsShown(true)***REMOVED***
-      onMouseLeave={() =***REMOVED*** setIsShown(false)***REMOVED***
-    ***REMOVED***
+      onMouseEnter={() => setIsShown(true)}
+      onMouseLeave={() => setIsShown(false)}
+    >
       {!isShown && (
-        <video className="video" controls***REMOVED***
-          <source src={movie.thumbnail***REMOVED*** type="video/mp4" /***REMOVED***
-        </video***REMOVED***
-    ***REMOVED******REMOVED***
+        <video className="video" controls>
+          <source src={movie.thumbnail} type="video/mp4" />
+        </video>
+      )}
 
       {isShown && (
-        <***REMOVED***
-          <video className="video" controls autoPlay={true***REMOVED*** loop***REMOVED***
-            <source src={movie.thumbnail***REMOVED*** type="video/mp4" /***REMOVED***
-          </video***REMOVED***
-          <div className="info-box"***REMOVED***
-            <p***REMOVED***{movie.title***REMOVED***</p***REMOVED***
-          </div***REMOVED***
-        </***REMOVED***
-    ***REMOVED******REMOVED***
-    </div***REMOVED***
-***REMOVED***
-***REMOVED***
+        <>
+          <video className="video" controls autoPlay={true} loop>
+            <source src={movie.thumbnail} type="video/mp4" />
+          </video>
+          <div className="info-box">
+            <p>{movie.title}</p>
+          </div>
+        </>
+      )}
+    </div>
+  )
+}
 
 export default Card

@@ -1,16 +1,16 @@
-const NavBar = () =***REMOVED*** {
+const NavBar = () => {
   return (
-    <div className="navbar"***REMOVED***
-      <ul***REMOVED***
-        <li***REMOVED***
-          <div className="logo"***REMOVED***</div***REMOVED***
-        </li***REMOVED***
-        <li***REMOVED***
-          <a href="/"***REMOVED***Home</a***REMOVED***
-        </li***REMOVED***
-      </ul***REMOVED***
-    </div***REMOVED***
-***REMOVED***
-***REMOVED***
+    <div className="navbar">
+      <ul>
+        <li>
+          <div className="logo"></div>
+        </li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ul>
+    </div>
+  )
+}
 
 export default NavBar
