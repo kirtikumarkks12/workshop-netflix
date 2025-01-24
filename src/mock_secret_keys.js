@@ -1,7 +1,7 @@
 
 //This is demo purpose for app security
 
-passkey: **123**
+passkey: qwerty
 id: 1234
-phoneNo: 
-name: ***REMOVED***
+phoneNo: 9454
+name: kumar
